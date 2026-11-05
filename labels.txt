@@ -1,0 +1,12 @@
+judol
+tawaran_kerja_palsu
+tawaran_kerja_asli
+giveaway_palsu
+pinjol
+investasi_bodong
+investasi_asli
+phising
+penting
+netral
+
+'judol', 'tawaran_kerja_palsu', 'giveaway_palsu', 'pinjol', 'investasi_bodong', 'phising'
