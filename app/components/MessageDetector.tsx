@@ -66,7 +66,7 @@ export default async function MessageDetector() {
                 // 1. Konfigurasi jalur WASM ONNX Runtime (Menggunakan CDN publik untuk menghindari batasan ukuran file di deployment)
                 if (typeof window !== 'undefined') {
                     ort.env.wasm.numThreads = 1;
-                    ort.env.wasm.wasmPaths = 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.18.0/dist/';
+                    ort.env.wasm.wasmPaths = 'https://unpkg.com/onnxruntime-web@1.31.1/dist/';
                 }
 
                 // 2. Fetch metadata dari public/moderation_meta.json
