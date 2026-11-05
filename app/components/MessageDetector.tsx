@@ -29,7 +29,7 @@ ChartJS.register(
 
 
 
-export default async function MessageDetector() {
+export default function MessageDetector() {
     const [inputText, setInputText] = useState('');
     const [isAnalyzing, setIsAnalyzing] = useState(false);
     const [modelLoaded, setModelLoaded] = useState(false);
