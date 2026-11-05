@@ -5,7 +5,8 @@
 	"packageManager": "pnpm@12.16.1",
 	"pnpm": {
 		"onlyBuiltDependencies": [
-			"esbuild"
+			"esbuild",
+			"workerd"
 		]
 	},
 	"dependencies": {
