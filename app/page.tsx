@@ -50,8 +50,6 @@ export default function Home() {
           </div>
           <div className="pt-16 w-full font-mono scroll-mt-24 z-50 bg-white border-t border-neutral-300">
             <Contact />
-            <Logo />
-
             <Footer />
           </div>
         </div>
