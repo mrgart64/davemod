@@ -3,6 +3,11 @@
 	"version": "0.1.0",
 	"private": true,
 	"packageManager": "pnpm@12.16.1",
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	},
 	"dependencies": {
 		"@cloudflare/workers-response-store": "^1.1.4",
 		"@litertjs/core": "^2.6.0",
