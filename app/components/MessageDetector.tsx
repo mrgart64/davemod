@@ -434,10 +434,10 @@ export default function MessageDetector() {
                         <span className="w-2 h-2 rounded-full bg-neutral-800 animate-pulse"></span>
                         <span>MESSAGE RECOGNITION</span>
                     </div>
-                    <h2 className="text-xl sm:text-3xl font-extrabold text-neutral-900 tracking-tight">
+                    <h2 className="text-xl sm:text-3xl font-extrabold text-neutral-900 tracking-tight px-4">
                         Uji &amp; Analisis Pesan Mencurigakan
                     </h2>
-                    <p className="text-xs sm:text-sm text-neutral-700 font-mono mt-2 max-w-xl mx-auto">
+                    <p className="text-xs sm:text-sm text-neutral-700 font-mono mt-2 max-w-xl mx-auto px-4">
                         Tempelkan teks SMS, pesan WhatsApp, atau caption media sosial di bawah ini untuk mendeteksi potensi penipuan dengan DaveMod.
                     </p>
 

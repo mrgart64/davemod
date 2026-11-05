@@ -22,7 +22,7 @@ export const Contact: React.FC = () => {
                 </div>
 
                 {/* CONTAINER UTAMA (Card Tunggal / Profile Box) */}
-                <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8 transition-all">
+                <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8 transition-all border border-neutral-200 shadow-sm">
 
                     {/* FOTO PROFIL DEVELOPER */}
                     <div className="flex flex-col items-center shrink-0">
@@ -110,7 +110,7 @@ export const Contact: React.FC = () => {
                         </div>
 
                         {/* Logo Aplikasi & By BASIS-64 */}
-                        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-4 pt-4 border-t border-neutral-200 dark:border-neutral-800">
+                        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mt-4 pt-4 border-t border-neutral-200">
                             <div className="flex flex-wrap items-center gap-2">
                                 {/* DaveMod Logo & Brand */}
                                 <div className="flex items-center gap-2 tracking-tight">
@@ -122,13 +122,13 @@ export const Contact: React.FC = () => {
                                         className="w-10 h-10 object-contain drop-shadow-md"
                                         loading="eager"
                                     />
-                                    <span className="font-extrabold italic text-xl sm:text-2xl text-slate-900 dark:text-white drop-shadow-sm">
+                                    <span className="font-extrabold italic text-xl sm:text-2xl text-slate-900 drop-shadow-sm">
                                         DaveMod
                                     </span>
                                 </div>
 
                                 {/* Separator / 'by' text */}
-                                <span className="text-sm font-medium text-neutral-500 dark:text-neutral-400 mx-1">
+                                <span className="text-sm font-medium text-neutral-500 mx-1">
                                     by
                                 </span>
 
@@ -142,15 +142,15 @@ export const Contact: React.FC = () => {
                                         className="w-10 h-10 object-contain"
                                         loading="eager"
                                     />
-                                    <span className="font-extrabold text-xl sm:text-2xl text-slate-900 dark:text-white drop-shadow-sm">
+                                    <span className="font-extrabold text-xl sm:text-2xl text-slate-900 drop-shadow-sm">
                                         BASIS-64
                                     </span>
                                 </div>
                             </div>
 
                             {/* Badge Informasi/Versi */}
-                            <span className="text-[11px] text-neutral-500 dark:text-neutral-400 font-mono tracking-wider bg-neutral-100 dark:bg-neutral-800 px-2.5 py-1 rounded-md border border-neutral-200 dark:border-neutral-700">
-                                v1.0.0 {/* Atau ubah ke info lainnya */}
+                            <span className="text-[11px] text-neutral-500 font-mono tracking-wider bg-neutral-100 px-2.5 py-1 rounded-md border border-neutral-200">
+                                v1.0.0
                             </span>
                         </div>
 
