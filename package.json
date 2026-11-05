@@ -43,9 +43,9 @@
 	},
 	"type": "module",
 	"scripts": {
-		"dev": "next dev",
-		"nextdev": "next dev",
-		"build": "next build",
+		"dev": "next dev --webpack",
+		"nextdev": "next dev --webpack",
+		"build": "next build --webpack",
 		"start": "vite preview",
 		"deploy": "vinext-cloudflare deploy --warm-cache",
 		"deploy:response-store": "cf deploy --prebuilt --mode production --worker davemod-response-store"
