@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import type * as ort from 'onnxruntime-web';
-// import * as ort from 'onnxruntime-web';
+// import type * as ort from 'onnxruntime-web';
+import * as ort from 'onnxruntime-web';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -62,11 +62,11 @@ export default function MessageDetector() {
                 // ort.env.wasm.numThreads = 1;
                 // ort.env.wasm.wasmPaths = 'https://cdn.jsdelivr.net/npm/onnxruntime-web@latest/dist/';
 
-                const ort = await import('onnxruntime-web');
+                // const ort = await import('onnxruntime-web');
                 // 1. Konfigurasi jalur WASM ONNX Runtime (Menggunakan CDN publik untuk menghindari batasan ukuran file di deployment)
                 if (typeof window !== 'undefined') {
                     ort.env.wasm.numThreads = 1;
-                    ort.env.wasm.wasmPaths = 'https://unpkg.com/onnxruntime-web@1.31.1/dist/';
+                    ort.env.wasm.wasmPaths = 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.31.1/dist/';
                 }
 
                 // 2. Fetch metadata dari public/moderation_meta.json
